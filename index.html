@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Project Aashray connects senior citizens, verified care homes, donors, and volunteers through a direct, verified support network.">
+  <title>Aashray | Community, Care & Dignity</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">
+        <div class="logo-wrapper">
+          <img src="ashraylogo.png" alt="Aashray Logo" class="brand-logo" onerror="this.parentElement.style.display='none'">
+        </div>
+        <span class="brand-name">Aashray</span>
+      </a>
+
+      <nav id="navMenu" aria-label="Main Navigation">
+        <a href="#home">Home</a>
+        <a href="#needs">Active Requirements</a>
+        <a href="#how">How It Works</a>
+        <a href="#impact">Impact Overview</a>
+        <a href="#volunteer">Volunteer</a>
+        <a href="#needs" class="nav-btn-mobile">Contribute Now</a>
+      </nav>
+
+      <a href="#needs" class="nav-btn">Contribute</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none">
+          <line x1="3" y1="12" x2="21" y2="12" class="line-mid"></line>
+          <line x1="3" y1="6" x2="21" y2="6" class="line-top"></line>
+          <line x1="3" y1="18" x2="21" y2="18" class="line-bot"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <div class="hero-text fade-in-up">
+          <div class="eyebrow">
+            <span></span>
+            COMMUNITY • CARE • DIGNITY
+          </div>
+          <h1>Every Elder Deserves a Place to Belong.</h1>
+          <p>
+            Project Aashray connects senior citizens, verified care homes, donors, and student volunteers through a transparent, community-powered support system. We help identify genuine requirements, coordinate exact contributions, and ensure support reaches individuals where it matters most.
+          </p>
+          <div class="hero-buttons">
+            <a href="#needs" class="btn btn-primary">View Active Needs &rarr;</a>
+            <a href="#how" class="btn btn-outline">How Aashray Works &rarr;</a>
+          </div>
+          <div class="trust-row">
+            <div class="badge-ring">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div>
+              <strong>400+ community members</strong>
+              <small>actively supporting elder care initiatives.</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card fade-in-up delay-1">
+          <div class="floating-badge">
+            <span class="pulse"></span> VERIFIED DATA
+          </div>
+          <div class="elder-image">
+            <div class="image-overlay">
+              <span class="overlay-icon">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+              </span>
+              <p>Care Begins With Listening.</p>
+              <small>Every contribution begins with a verified, direct requirement.</small>
+            </div>
+          </div>
+          <div class="hero-card-bottom">
+            <div>
+              <small>Care Partner Network</small>
+              <strong>25 participating care homes</strong>
+            </div>
+            <div class="mini-stat">
+              <strong id="heroPercentage">47%</strong>
+              <small>Critical requirements fulfilled</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats-section reveal">
+      <div class="container">
+        <div class="stats-header">
+          <span class="section-label light">OUR IMPACT</span>
+          <h2>Measurable Change in Numbers</h2>
+        </div>
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </div>
+            <div>
+              <strong class="stat-counter" data-count="25">0</strong>
+              <p>Care Homes Supported</p>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 12 20 22 4 22 4 12"></polyline>
+                <rect x="2" y="7" width="20" height="5"></rect>
+                <line x1="12" y1="22" x2="12" y2="7"></line>
+              </svg>
+            </div>
+            <div>
+              <strong class="stat-counter" data-count="684">0</strong>
+              <p>Items Fulfilled</p>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div>
+              <strong class="stat-counter" data-count="327">0</strong>
+              <p>People Who Donated</p>
+            </div>
+          </div>
+          <div class="stat">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div>
+              <strong class="stat-counter" data-count="1120">0</strong>
+              <p>Volunteer Hours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Needs -->
+    <section class="section needs-section" id="needs">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-label">REAL-TIME REQUIREMENTS</span>
+            <h2>Where Your Support Matters Most</h2>
+          </div>
+          <p>
+            Review direct supply shortages confirmed with care home coordinators. Choose a requirement to pledge the needed quantity and prevent excess inventory.
+          </p>
+        </div>
+
+        <div class="toolbar reveal">
+          <div class="filter-row" role="tablist">
+            <button class="filter active" data-filter="all">All Needs</button>
+            <button class="filter" data-filter="medical">Medical</button>
+            <button class="filter" data-filter="hygiene">Hygiene</button>
+            <button class="filter" data-filter="nutrition">Nutrition</button>
+            <button class="filter" data-filter="utility">Utilities</button>
+          </div>
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search item or care home..." aria-label="Search requirements">
+          </div>
+        </div>
+
+        <div class="needs-grid" id="needsGrid"></div>
+
+        <div id="noResults" class="empty-state hidden">
+          <p>No matching requirements found. Please adjust your filters or search terms.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="section how-section" id="how">
+      <div class="container">
+        <div class="center-heading reveal">
+          <span class="section-label">HOW IT WORKS</span>
+          <h2>Simple Process. Direct Impact.</h2>
+          <p>A systematic framework converting good intentions into verifiable elder support.</p>
+        </div>
+
+        <div class="steps reveal">
+          <div class="step">
+            <div class="step-number">01</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+            <h3>Discover a Need</h3>
+            <p>Browse verified requirement lists published directly by partner care homes.</p>
+          </div>
+          <div class="step-line"></div>
+          <div class="step">
+            <div class="step-number">02</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+              </svg>
+            </div>
+            <h3>Pledge What is Needed</h3>
+            <p>Commit to the exact quantity required, preventing duplicate shipments and overstocking.</p>
+          </div>
+          <div class="step-line"></div>
+          <div class="step">
+            <div class="step-number">03</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3>Deliver or Dispatch</h3>
+            <p>Use confirmed facility logistics details to deliver or ship items directly to the care home.</p>
+          </div>
+          <div class="step-line"></div>
+          <div class="step">
+            <div class="step-number">04</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 14 14"></polyline>
+              </svg>
+            </div>
+            <h3>Track Receipt & Impact</h3>
+            <p>Care homes verify receipt, updating live inventory meters and completion milestones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact -->
+    <section class="impact-section" id="impact">
+      <div class="container impact-grid reveal">
+        <div class="impact-text">
+          <span class="section-label light">WHY AASHRAY?</span>
+          <h2>Because Dignity Is Not a Donation. It Is a Right.</h2>
+          <p>
+            Standard charitable drives often create imbalance: excess non-perishables in one location while critical medical supplies and specialized hygiene products remain unavailable elsewhere.
+          </p>
+          <p>
+            Aashray operates on a targeted, requirement-first model.
+          </p>
+          <div class="impact-points">
+            <div>
+              <span class="point-icon">&#10003;</span>
+              <p><strong>100% Verified Demands</strong><br>Every requirement is validated with care home administrators before listing.</p>
+            </div>
+            <div>
+              <span class="point-icon">&#10003;</span>
+              <p><strong>Zero-Waste Distribution</strong><br>Real-time capacity tracking locks item pledges once target quantities are met.</p>
+            </div>
+            <div>
+              <span class="point-icon">&#10003;</span>
+              <p><strong>Holistic Engagement</strong><br>Facilitating companionship, digital literacy, and routine health assistance alongside essential goods.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="impact-visual">
+          <div class="circle circle-one"></div>
+          <div class="circle circle-two"></div>
+          <div class="impact-card main-impact floating-card">
+            <span>CURRENT PERIOD</span>
+            <strong id="impactPercent">47%</strong>
+            <p>Critical Needs Fulfilled</p>
+            <div class="impact-bar">
+              <span id="impactBarInner" style="width: 47%"></span>
+            </div>
+            <small class="card-caption">Every completed pledge represents a direct quality-of-life improvement for elderly residents.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section class="section volunteer-section" id="volunteer">
+      <div class="container volunteer-box reveal">
+        <div>
+          <span class="section-label">VOLUNTEER INITIATIVES</span>
+          <h2>Your Time Creates Lasting Connection.</h2>
+          <p>
+            Support extends beyond physical supplies. Join our teams to coordinate recreation sessions, technology workshops, personal visits, and routine health camps.
+          </p>
+        </div>
+        <div class="volunteer-actions">
+          <button class="btn btn-primary" id="volunteerBtn">Become a Volunteer &rarr;</button>
+          <a href="#needs" class="text-link">I Want to Pledge Items &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="cta-banner">
+      <div class="container cta-content reveal">
+        <div>
+          <span class="section-label light">JOIN THE MOVEMENT</span>
+          <h2>Care Is Stronger When a Community Unites.</h2>
+          <p>Whether pledging an item, dedicating volunteer hours, or raising awareness, your contribution ensures every senior citizen is supported, valued, and respected.</p>
+        </div>
+        <div>
+          <a href="#needs" class="btn btn-primary cta-btn">Help Now &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo">
+          <div class="logo-wrapper footer-logo-wrapper">
+            <img src="ashraylogo.png" alt="Aashray Logo" class="brand-logo" onerror="this.parentElement.style.display='none'">
+          </div>
+          <span class="brand-name">AASHRAY</span>
+        </a>
+        <p>Building compassionate communities where every elder is respected, nurtured, and remembered.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#needs">Active Requirements</a>
+        <a href="#how">How It Works</a>
+        <a href="#impact">Impact Overview</a>
+      </div>
+      <div>
+        <h4>Get Involved</h4>
+        <a href="#volunteer">Volunteer Portal</a>
+        <a href="#needs">Item Donation</a>
+        <a href="#volunteer">Sponsor Care Programs</a>
+      </div>
+      <div>
+        <h4>Project Aashray</h4>
+        <p>A Community Welfare Initiative</p>
+        <p>Coordinated by student volunteers and civic partners.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>&copy; 2026 Project Aashray. All rights reserved.</span>
+        <span>Care &bull; Dignity &bull; Community</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pledge Modal -->
+  <div class="modal" id="pledgeModal" role="dialog" aria-modal="true" aria-labelledby="pledgeModalTitle">
+    <div class="modal-content">
+      <button class="close-modal" id="closeModal" aria-label="Close dialog">&times;</button>
+      <div class="modal-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+        </svg>
+      </div>
+      <span class="section-label">MAKE AN IMPACT</span>
+      <h2 id="pledgeModalTitle">Pledge an Item</h2>
+      <p id="selectedNeed">You are supporting a verified care facility.</p>
+
+      <form id="pledgeForm">
+        <label>
+          Full Name
+          <input type="text" id="donorName" required placeholder="e.g. Ramesh Kulkarni">
+        </label>
+        <label>
+          Pledge Quantity
+          <input type="number" id="pledgeQuantity" min="1" value="1" required>
+        </label>
+        <label>
+          Contact Phone / WhatsApp
+          <input type="tel" id="donorPhone" required placeholder="e.g. +91 98765 43210">
+        </label>
+        <button type="submit" class="btn btn-primary full-btn">Confirm Pledge</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Volunteer Modal -->
+  <div class="modal" id="volunteerModal" role="dialog" aria-modal="true" aria-labelledby="volunteerModalTitle">
+    <div class="modal-content">
+      <button class="close-modal" id="closeVolunteer" aria-label="Close dialog">&times;</button>
+      <div class="modal-icon">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+          <circle cx="9" cy="7" r="4"></circle>
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+        </svg>
+      </div>
+      <span class="section-label">JOIN US</span>
+      <h2 id="volunteerModalTitle">Become a Volunteer</h2>
+      <p>Submit your details to coordinate with our community network.</p>
+
+      <form id="volunteerForm">
+        <label>
+          Full Name
+          <input type="text" id="volName" required placeholder="Your full name">
+        </label>
+        <label>
+          Email Address
+          <input type="email" id="volEmail" required placeholder="name@example.com">
+        </label>
+        <label>
+          Primary Area of Contribution
+          <select id="volInterest" required>
+            <option value="">Select an initiative</option>
+            <option value="companionship">Storytelling & Companionship</option>
+            <option value="drives">Supply Drive Logistics</option>
+            <option value="digital">Digital & Technology Literacy</option>
+            <option value="medical">Health Camps & Screening Support</option>
+            <option value="recreational">Recreational Activity Coordination</option>
+          </select>
+        </label>
+        <button type="submit" class="btn btn-primary full-btn">Submit Application</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
